@@ -29,12 +29,12 @@ a{
 
 /* ----DEBUG---- */
 .row-header{
-    background-color: red;
-    padding: 30px 10px;
+    /* background-color: red; */
+    /* padding: 30px 5px; */
 }
 
 .header-left, .header-right{
-    background-color: rgb(164, 164, 177);
+    /* background-color: rgb(164, 164, 177); */
 }
 /* ----DEBUG---- */
 
@@ -43,16 +43,39 @@ a{
 
 /* ----HEADER---- */
 header{
+    background-color: #ffffff;
     height: 80px;
+    color: #474747;
+}
 
+.logo-header{
+    width: 100%;
 }
 
 .row-header{
+    padding: 25px 10px;
     display: flex;
     justify-content: space-between;
 }
 
-.list-header-left{
+.list-header-left, .list-header-right{
     display: flex;
     align-items: center;
+}
+
+
+.list-header-left li{
+    padding-right: 40px;
+}
+
+.list-header-right li {
+    padding-left: 40px;
+}
+
+.btn-header{
+    color: white;
+    border: none;
+    background-color:#0061ff ;
+    padding: 10px 15px;
+
 }
