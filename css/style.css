@@ -1,9 +1,13 @@
+/* ----RESET---- */
 @import url("reset.css");
 
 
 body{
 font-family: 'Open Sans', sans-serif;
 }
+/* ----RESET---- */
+
+
 
 
 /* ----COMMONS---- */
@@ -18,7 +22,8 @@ font-family: 'Open Sans', sans-serif;
     margin: auto;
 }
 
-/* ----COMMONS---- */
+
+
 ul{
   list-style: none;  
 }
@@ -27,29 +32,17 @@ a{
  text-decoration: none;
  color: inherit;
 }
+/* ----COMMONS---- */
 
-
-/* ----DEBUG---- */
-.row-header{
-    /* background-color: red; */
-    /* padding: 30px 5px; */
-}
-
-.header-left, .header-right{
-    /* background-color: rgb(164, 164, 177); */
-}
-
-.jumbo{
-    background-color: aqua;
-
-}
-/* ----DEBUG---- */
 
 
 
 
 /* ----HEADER---- */
 header{
+    /* position: fixed;
+    right: 0;
+    left: 0; */
     background-color: #ffffff;
     border-bottom: 1px solid black;
     height: 80px;
@@ -92,6 +85,12 @@ header{
 
 
 /* ----MAIN---- */
+
+.jumbo{
+    background-color: #b4d0e7;
+}
+
+
 .titolo-jumbo{
     /* text-align: center; */
     font-weight: bolder;
@@ -106,13 +105,13 @@ header{
 
 .col-left-jumbo{
     width: 35%;
-    background-color: yellow;
+    /* background-color: yellow; */
 }
 
 .col-right-jumbo {
     width: 65%;
     height: 400px;
-    background-color: green;
+    /* background-color: green; */
     
 }
 
@@ -136,6 +135,15 @@ header{
 
 .col-right-jumbo img{
     width: 100%;
+}
 
-   
+
+.title-check{
+    padding-top: 150px;
+}
+
+
+.title-check h2{
+    font-size: 30px;
+    font-weight: bold;
 }
