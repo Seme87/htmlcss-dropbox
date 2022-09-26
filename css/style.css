@@ -1,0 +1,58 @@
+@import url("reset.css");
+
+
+body{
+font-family: 'Open Sans', sans-serif;
+}
+
+
+/* ----COMMONS---- */
+
+.big-container{
+    max-width:1250px ;
+}
+
+.small-container{
+    max-width: 1000px;
+}
+
+/* ----COMMONS---- */
+ul{
+  list-style: none;  
+}
+
+a{
+ text-decoration: none;
+ color: inherit;
+}
+
+
+/* ----DEBUG---- */
+.row-header{
+    background-color: red;
+    padding: 30px 10px;
+}
+
+.header-left, .header-right{
+    background-color: rgb(164, 164, 177);
+}
+/* ----DEBUG---- */
+
+
+
+
+/* ----HEADER---- */
+header{
+    height: 80px;
+
+}
+
+.row-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-header-left{
+    display: flex;
+    align-items: center;
+}
