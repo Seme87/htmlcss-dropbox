@@ -10,10 +10,12 @@ font-family: 'Open Sans', sans-serif;
 
 .big-container{
     max-width:1250px ;
+    margin: auto;
 }
 
 .small-container{
     max-width: 1000px;
+    margin: auto;
 }
 
 /* ----COMMONS---- */
@@ -36,6 +38,11 @@ a{
 .header-left, .header-right{
     /* background-color: rgb(164, 164, 177); */
 }
+
+.jumbo{
+    background-color: aqua;
+
+}
 /* ----DEBUG---- */
 
 
@@ -44,6 +51,7 @@ a{
 /* ----HEADER---- */
 header{
     background-color: #ffffff;
+    border-bottom: 1px solid black;
     height: 80px;
     color: #474747;
 }
@@ -77,5 +85,57 @@ header{
     border: none;
     background-color:#0061ff ;
     padding: 10px 15px;
+}
+/* ----HEADER---- */
 
+
+
+
+/* ----MAIN---- */
+.titolo-jumbo{
+    /* text-align: center; */
+    font-weight: bolder;
+    font-size: 50px;
+    padding-top:100px;
+}
+
+.row-jumbo{
+    padding-top: 50px;
+    display: flex;
+}
+
+.col-left-jumbo{
+    width: 35%;
+    background-color: yellow;
+}
+
+.col-right-jumbo {
+    width: 65%;
+    height: 400px;
+    background-color: green;
+    
+}
+
+.jumbo-button{
+    color: white;
+    border: none;
+    background-color: #0061ff;
+    padding: 10px 15px;
+}
+
+.col-left-jumbo button{
+    margin: 35px 0;
+    
+}
+
+#icon-jumbo{
+    margin-top:80px ;
+    margin-bottom: 20px;
+    font-size:50px ;
+}
+
+.col-right-jumbo img{
+    width: 100%;
+
+   
 }
