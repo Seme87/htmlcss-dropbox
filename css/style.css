@@ -491,10 +491,43 @@ header{
 
 /* ---------FOOTER---------- */
 
+
+footer{
+    background-color:#000000 ;
+    color: white;
+    
+}
+
 .row-footer{
    display: flex; 
+  
 }
 
 .col-footer{
-    width: ;
+    width: calc(100% / 5);
+    padding: 65px 0;
 }
+
+footer li{
+    padding: 10px 0;
+    font-size: small;
+}
+
+.hr-footer{
+    width: 10%;
+    border: 1px solid #d0d0d3;     
+}
+
+.icon-footer{
+    color: #d0d0d3;
+    margin-top: 30px;
+    padding-bottom: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.country{
+    padding: 0 5px;
+}
+
+/* ---------FOOTER---------- */
