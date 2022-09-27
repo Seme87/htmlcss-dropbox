@@ -39,6 +39,10 @@ a{
  text-decoration: none;
  color: inherit;
 }
+
+h2{
+font-size: 30px;
+}
 /* ----COMMONS---- */
 
 
@@ -351,15 +355,19 @@ header{
     padding-top: 35px;
 }
 
+
+
+
 .title{
     margin-top: 180px;
+    margin-bottom: 150px;
 }
 
 
 .title a{
     text-decoration: underline;
     color: blue;
-    padding-bottom: 150px;
+   
 }
 
 
@@ -376,7 +384,6 @@ header{
     flex-wrap: wrap;
     width:calc(100vw / 3) ;
     height:calc(100vw / 3) ;
-    border: 1px solid;
 }
 
 
@@ -385,19 +392,109 @@ header{
     justify-content: center;
     align-items: center;
     width: 50%;
-    height: 50%;
-    border: 1px solid red;
-    
-    
+    height: 50%;   
 }
 
-#img1{
-    fill: white;
+
+.partner img{
+    filter: invert(1);
     width: 50%;
-    background-color:#a2d39b;
 }
 
 .square-1{
     background-color: #a2d39b;
 }
 
+.square-2{
+    background-color: #61082b;
+}
+
+.square-3{
+    background-color:#0093ce ;
+}
+
+.square-4 {
+    background-color:#ff1c1c;
+}
+
+.square-5{
+    background-color:#d5001f ;
+}
+
+.square-6{
+    background-color: #b4d0e7;
+}
+
+.square-7{
+   background-color: #0d2481; 
+}
+
+.square-8{
+    background-color:#ffd830 ;
+}
+
+.title-central img{
+    padding: 50px 50px;
+    width: 70%;
+}
+
+.title-central p{
+    padding:0 50px;
+    padding-bottom: 50px;
+}
+
+.banner{
+    background-color:#b4d0e7;
+}
+
+.row-banner{
+    color: #61082b;
+    padding:130px 0 ;
+    position: relative;
+}
+
+.btn-banner{
+    position: absolute;
+    top: 130px;
+    right: 0;
+    color:black;
+    border: none;
+    background-color: white;
+    padding: 12px 40px;
+}
+
+
+.row-faq{
+    padding: 160px 0;
+}
+
+.row-faq h2{
+    padding-bottom: 70px;
+}
+
+.question{
+    position: relative;
+    padding: 30px 0;
+    border-top: 1px solid black;
+    /* border-bottom: 1px solid black; */
+}
+
+.question i{
+    position: absolute;
+    right:50px;
+    top: 30px;
+}
+
+/* ----------MAIN------------ */
+
+
+
+/* ---------FOOTER---------- */
+
+.row-footer{
+   display: flex; 
+}
+
+.col-footer{
+    width: ;
+}
