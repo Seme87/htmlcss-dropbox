@@ -16,19 +16,23 @@ main {
     padding-top: 80px;
 }
 
+
 .big-container{
     max-width:1250px ;
     margin: auto;
 }
+
 
 .small-container{
     max-width: 1000px;
     margin: auto;
 }
 
+
 img{
     width: 100%;
 }
+
 
 ul{
   list-style: none;  
@@ -40,9 +44,11 @@ a{
  color: inherit;
 }
 
+
 h2{
 font-size: 30px;
 }
+
 /* ----COMMONS---- */
 
 
@@ -60,15 +66,18 @@ header{
     color: #474747;
 }
 
+
 .logo-header{
     width: 100%;
 }
+
 
 .row-header{
     padding: 25px 10px;
     display: flex;
     justify-content: space-between;
 }
+
 
 .list-header-left, .list-header-right{
     display: flex;
@@ -80,9 +89,11 @@ header{
     padding-right: 40px;
 }
 
+
 .list-header-right li {
     padding-left: 40px;
 }
+
 
 .btn-header{
     color: white;
@@ -109,22 +120,24 @@ header{
     padding-top:100px;
 }
 
+
 .row-jumbo{
     padding-top: 50px;
     display: flex;
 }
+
 
 .col-left-jumbo{
     width: 35%;
     /* background-color: yellow; */
 }
 
+
 .col-right-jumbo {
     width: 65%;
     height: 400px;
-    /* background-color: green; */
-    
 }
+
 
 .jumbo-button{
     color: white;
@@ -133,16 +146,18 @@ header{
     padding: 10px 15px;
 }
 
+
 .col-left-jumbo button{
-    margin: 35px 0;
-    
+    margin: 35px 0; 
 }
+
 
 #icon-jumbo{
     margin-top:80px ;
     margin-bottom: 20px;
     font-size:50px ;
 }
+
 
 .col-right-jumbo img{
     width: 100%;
@@ -159,6 +174,7 @@ header{
     font-weight: bold;
 }
 
+
 .radio-button{
     margin:50px 0;
     display: flex;
@@ -169,6 +185,7 @@ header{
     padding-right:50px ;
 }
 
+
 .row-profile{
     margin-right: 50px;
     display: flex;
@@ -176,11 +193,13 @@ header{
     width: 100%;
 }
 
+
 .col-profile{
     
     width: calc(100% / 3 - 50px);
     border: 1px solid #d0d0d3;
 }
+
 
 .user-icon{
     border: 1px solid #d0d0d3 ;
@@ -188,23 +207,26 @@ header{
     text-align: center;
 }
 
+
 .text-profile{
     padding:40px 30px ;
 }
-
 
 
 .text-profile h4{
     padding: 30px 0;
 }
 
+
 .text-profile ul{
     padding: 50px 0;
 }
 
+
 .text-profile ul li {
     padding: 30px 0;
 }
+
 
 .link-btn button{
     color: white;
@@ -213,33 +235,39 @@ header{
     padding: 10px 35px;
 }
 
+
 .link-btn{
     padding-left: 30px;
 }
 
+
 .link-btn a{
     padding: 35px 0;
     text-decoration: underline;
-    
 }
+
 
 .link{
     padding: 35px 0;
 }
+
 
 .hr{
     width: 20%;
     border:1px solid #d0d0d3 ;
 }
 
+
 .point-profile{
     padding:50px 30px ;
     margin-bottom: 150px;
 }
 
+
 .point-profile ul li{
     padding: 30px 0;
 }
+
 
 #btn-building{
     color: white;
@@ -248,15 +276,18 @@ header{
     padding: 10px 85px;
 }
 
+
 .team-profile{
     border: 1px solid #d0d0d3;
     margin-top:  50px;
 }
 
+
 .logo-team{
     text-align: center;
     padding: 15px 0;
 }
+
 
 .row-team-profile{
     border: 1px solid #d0d0d3;
@@ -266,26 +297,29 @@ header{
 }
 
 
-
 .left{
     width: 60%;
     padding-top: 40px;
     padding-bottom:40px;
 }
 
+
 .left h4{
     padding-bottom: 30px;
 }
 
+
 .left h5{
     padding-bottom: 50px;
 }
+
 
 .right{
     width: 40%;
     padding-top: 40px;
     position: relative;
 }
+
 
 .btn-team-profile{
     position: absolute;
@@ -296,25 +330,30 @@ header{
     padding: 12px 40px;
 }
 
+
 .row-partner{
     display: flex;
     width: 100%;
     margin-top: 150px; 
 }
 
+
 .col-partenr-left{
     width: 60%;
 }
 
+
 .col-partenr-left img{
     width: 100%;
 }
+
 
 .col-partenr-right {
     padding-top: 60px;
     padding-left: 50px;
     width: 40%;
 }
+
 
 .col-partenr-right h3{
     padding-bottom: 30px;
@@ -327,6 +366,8 @@ header{
     background-color: transparent;
     padding: 12px 40px;
 }
+
+
 
 .col-partenr-right p{
     padding-bottom:35px;
@@ -352,10 +393,10 @@ header{
     width: calc(100% / 3);
 }
 
+
 .card-business p{
     padding-top: 35px;
 }
-
 
 
 
@@ -368,7 +409,6 @@ header{
 .title a{
     text-decoration: underline;
     color: blue;
-   
 }
 
 
@@ -376,9 +416,11 @@ header{
     padding-bottom: 150px;
 }
 
+
 .row-designit{
     display: flex;
 }
+
 
 .col-designit{
     display: flex;
@@ -402,57 +444,70 @@ header{
     width: 50%;
 }
 
+
 .square-1{
     background-color: #a2d39b;
 }
+
 
 .square-2{
     background-color: #61082b;
 }
 
+
 .square-3{
     background-color:#0093ce ;
 }
+
 
 .square-4 {
     background-color:#ff1c1c;
 }
 
+
 .square-5{
     background-color:#d5001f ;
 }
+
 
 .square-6{
     background-color: #b4d0e7;
 }
 
+
 .square-7{
    background-color: #0d2481; 
 }
 
+
 .square-8{
     background-color:#ffd830 ;
 }
+
 
 .title-central img{
     padding: 50px 50px;
     width: 70%;
 }
 
+
 .title-central p{
     padding:0 50px;
     padding-bottom: 50px;
 }
 
+
 .banner{
     background-color:#b4d0e7;
 }
+
 
 .row-banner{
     color: #61082b;
     padding:130px 0 ;
     position: relative;
 }
+
 
 .btn-banner{
     position: absolute;
@@ -469,16 +524,18 @@ header{
     padding: 160px 0;
 }
 
+
 .row-faq h2{
     padding-bottom: 70px;
 }
+
 
 .question{
     position: relative;
     padding: 30px 0;
     border-top: 1px solid black;
-    /* border-bottom: 1px solid black; */
 }
+
 
 .question i{
     position: absolute;
@@ -496,28 +553,31 @@ header{
 footer{
     background-color:#000000 ;
     color: white;
-    
 }
+
 
 .row-footer{
    display: flex; 
-  
 }
+
 
 .col-footer{
     width: calc(100% / 5);
     padding: 65px 0;
 }
 
+
 footer li{
     padding: 10px 0;
     font-size: small;
 }
 
+
 .hr-footer{
     width: 10%;
     border: 1px solid #d0d0d3;     
 }
+
 
 .icon-footer{
     color: #d0d0d3;
@@ -526,6 +586,7 @@ footer li{
     display: flex;
     align-items: center;
 }
+
 
 .country{
     padding: 0 5px;
