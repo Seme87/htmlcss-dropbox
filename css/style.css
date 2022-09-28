@@ -62,6 +62,7 @@ header{
     left: 0;
     z-index: 100;
     background-color: #ffffff;
+    box-shadow: 0px 0px 5px 2px rgb(0 0 0 / 20%);
     height: 80px;
     color: #474747;
 }
@@ -242,6 +243,7 @@ header{
 
 
 .link-btn a{
+    color: blue;
     padding: 35px 0;
     text-decoration: underline;
 }
@@ -266,8 +268,12 @@ header{
 
 .point-profile ul li{
     padding: 30px 0;
+    /* padding-right: 10px; */
 }
 
+ .fa-check{
+    color: blue;
+ }
 
 #btn-building{
     color: white;
@@ -351,6 +357,7 @@ header{
 .col-partenr-right {
     padding-top: 60px;
     padding-left: 50px;
+    padding-right:50px;
     width: 40%;
 }
 
@@ -423,6 +430,7 @@ header{
 
 
 .col-designit{
+    overflow-y: auto;
     display: flex;
     flex-wrap: wrap;
     width:calc(100vw / 3) ;
@@ -491,6 +499,8 @@ header{
 }
 
 
+
+
 .title-central p{
     padding:0 50px;
     padding-bottom: 50px;
@@ -543,6 +553,10 @@ header{
     top: 30px;
 }
 
+.third{
+    border-bottom: 1px solid black;
+}
+
 /* ----------MAIN------------ */
 
 
@@ -556,6 +570,16 @@ footer{
 }
 
 
+footer li {
+    padding: 10px 0;
+    font-size: 13px;
+}
+
+
+footer h4{
+    font-size:18px;
+}
+
 .row-footer{
    display: flex; 
 }
@@ -567,13 +591,7 @@ footer{
 }
 
 
-footer li{
-    padding: 10px 0;
-    font-size: small;
-}
-
-
-.hr-footer{
+hr{
     width: 10%;
     border: 1px solid #d0d0d3;     
 }
